@@ -52,7 +52,7 @@ app.post("/api/upload", upload.single("file"), (req, res) => {
 });
 
 app.get("/", function(req, res){
-  res.json({message: "Welcome to social_media_clone app"})
+  res.json({message: "Welcome to social_media_clone app 👋😃"})
 })
 
 app.use("/api/auth", authRoute);
